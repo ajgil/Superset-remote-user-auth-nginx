@@ -16,7 +16,7 @@ There are bit steps to do
 
 ## Postman tests
 
-Put on headers section your key and value. Of course user should be on Superset's database
+Put on headers section your `key` and `value`. Of course user should be on Superset's database
 
 ## Ngnix config
 
@@ -33,6 +33,7 @@ Where 8000 port is Gunicorn or Superset Debug mode listen. Choose your own bind 
 
 
 Links:
+
 [Flask_AppBuilder](https://flask-appbuilder.readthedocs.io/en/latest/security.html#your-custom-security)
 
 [Werkzeug project](http://werkzeug.pocoo.org/docs/0.14/wrappers/)
