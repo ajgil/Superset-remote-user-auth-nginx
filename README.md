@@ -27,7 +27,7 @@ server {
         ...
         location / {
             proxy_pass http://localhost:8000/;
-            proxy_set_header HTTP_X_PROXY_REMOTE_USER $1;
+            proxy_set_header HTTP_PROXY_REMOTE_USER $1;
         }
 ```
 Where 8000 port is Gunicorn or Superset Debug mode listen. Choose your own bind port.
