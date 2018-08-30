@@ -19,7 +19,7 @@ AUTH_USER_REGISTRATION_ROLE = "Gamma"
 from superset.security import SupersetSecurityManager
 from flask import redirect, g, flash, request, session
 from flask_appbuilder._compat import as_unicode
-from flask_appbuilder.security.views import UserDBModelView,AuthDBView, AuthRemoteUserView
+from flask_appbuilder.security.views import AuthDBView, AuthRemoteUserView
 from flask_appbuilder.security.views import expose
 from flask_appbuilder.security.manager import BaseSecurityManager
 from flask_appbuilder import base
