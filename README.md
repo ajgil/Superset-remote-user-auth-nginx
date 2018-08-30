@@ -13,6 +13,7 @@ There are bit steps to do
 * Update global ADDITIONAL_MIDDLEWARE
 * Define Security Manager (extends SupersetSecurityManager)
 * New Custom View class extends AuthRemoteUserView
+* Change AUTH_USER_REGISTRATION to False
 
 ## Postman tests
 
