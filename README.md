@@ -2,7 +2,7 @@
 
 This code is easiest way to configure AUTH_REMOTE_USER on Superset and Flask_AppBuilder framework, enables automatic login on superset.
 
-ToDo: Integrate SAML python library to manage token.
+__ToDo__: Integrate SAML python library to manage token.
 
 We suposse that you have Apache superset running as well. Let's do it
 
