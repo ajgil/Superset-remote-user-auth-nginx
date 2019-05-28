@@ -78,4 +78,4 @@ class MiCustomSecurityManager(SupersetSecurityManager):
     authremoteuserview = MiCustomRemoteUserView
 
 AUTH_TYPE = AUTH_REMOTE_USER
-CUSTOM_SECURITY_MANAGER = AsepeyoSecurityManager
+CUSTOM_SECURITY_MANAGER = MiCustomSecurityManager
